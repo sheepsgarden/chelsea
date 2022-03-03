@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#resume">resume</a></li>
+      </ul>
+    </nav>
+    
+    <div id="home" class="home">
+      <h1>Chelsea Nguyen</h1>
+      <h4>Computer Science Major</h4>
+    </div>
+    
+    <div id="work" class="work">
+      <h2 class="header">work</h2>
+      <a href="#" class="project"><img class="project-image" src="https://ibb.co/ynG5tNR" alt="project"></a>
+      <a href="#" class="project"><img class="project-image" src="https://ibb.co/ynG5tNR" alt="project"></a>
+      <a href="#" class="project"><img class="project-image" src="https://ibb.co/ynG5tNR" alt="project"></a>
+    </div>
+    
+    <div id="about" class="about">
+      <h2 class="header">about</h2>
+      <p>My name is Chelsea Nguyen and I am a CS Major.</p>
+      <a href="#" class="button resume-button" target="_blank">view my resume</a>
+    </div>
+    
+    <footer><p>Created for CSGirls</p></footer>
+  </body>
+</html>
