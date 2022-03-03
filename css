@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background: #B38D97;
+  text-align: right;
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: #353551;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 62px;
+}
+
+h4 {
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.home {
+  top: 0;
+  background: #B38D97;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: #353551;
+}
+
+.work .header {
+  font-family: 'Karla', sans-serif;
+  margin: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+}
+
+.project {
+  display: inline-block;
+  overflow: hidden;
+  height: 210px;
+  width: 280px;
+  margin: 50px;
+  border-radius: 25px;
+}
+
+.project-img {
+  width: 100%;
+  height: 210px;
+}
+
+.about {
+  top: 0;
+  background: #B38D97;
+  padding-top: 20px;
+}
+
+.about .header {
+  font-family: 'Karla', sans-serif;
+  margin: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+}
+
+.about p {
+  padding: 0px 100px 60px 100px;
+  font-size: 22px;
+}
+
+.button {
+  background-color: #353551;
+  border: none;
+  color: #B38D97;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+
+.resume-button {
+  border-radius: 8px;
+  margin: 20px auto 90px;
+}
+
+footer {
+  padding: 20px;
+  color: #353551;
+  line-height: 40px;
+}
